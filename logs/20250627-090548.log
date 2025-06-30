@@ -1,0 +1,19 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Generating any needed assets.
+INFO    : XSL conversion of C:\Users\sbagley\Documents\GitHub\tiny-sandbox\source\main.ptx by C:\Users\sbagley\.ptx\2.20.0\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : successful application of C:\Users\sbagley\.ptx\2.20.0\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : converting PreFigure diagrams from C:\Users\sbagley\Documents\GitHub\tiny-sandbox\source\main.ptx to SVG graphics for placement in C:\Users\sbagley\Documents\GitHub\tiny-sandbox\generated-assets\prefigure
+INFO    : extracting PreFigure diagrams from C:\Users\sbagley\Documents\GitHub\tiny-sandbox\source\main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/sbagley/Documents/GitHub/tiny-sandbox/publication/publication.ptx'}
+INFO    : XSL conversion of C:\Users\sbagley\Documents\GitHub\tiny-sandbox\source\main.ptx by C:\Users\sbagley\.ptx\2.20.0\core\xsl\extract-prefigure.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of C:\Users\sbagley\.ptx\2.20.0\core\xsl\extract-prefigure.xsl
+INFO    : compiling PreFigure source file prefigure-saturn-axes.xml to SVG
+INFO    : copying PreFigure output to C:\Users\sbagley\Documents\GitHub\tiny-sandbox\generated-assets\prefigure
+INFO    : Removing temporary directory C:\Users\sbagley\AppData\Local\Temp\ptx-9gft0rxj
+INFO    : Finished generating assets.
+
+INFO    : 

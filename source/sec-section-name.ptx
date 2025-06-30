@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Tiny Sandbox</title>
+
+  <p> Text of section. </p>
+
+  <xi:include href="./proteus-4-3.xml" />
+
+</section>

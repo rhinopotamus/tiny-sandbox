@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exercises component="proteus" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="proteus-5-1">
+<title>PROTEUS exercises (for Section 5.1)</title>
+<exercise xml:id="proteus-5-1-matching-graphs" label="proteus-5-1-matching-graphs">
+    <statement>
+        <p>
+            Drag each function on the left to the graph of its <alert>antiderivative</alert> on the right.
+        </p>
+    </statement>
+    <cardsort>
+        <match>
+            <premise>  <!-- premises should be ORIGINAL functions -->
+                <image width="60%">
+                    <prefigure xmlns="https://prefigure.org"
+                               label="prefigure-5-1-matching-1p">
+                        <diagram dimensions="(300,300)" margins="5">
+                            <definition>f(x)=3*x^2 + 2*x</definition>
+                            <coordinates bbox="(-4,-4,4,4)">
+                                <grid-axes xlabel="x" ylabel="y"/>
+                                <graph at="graph" function="f"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </premise>
+            <response> <!-- responses should be ANTIderivatives-->
+                <image width="60%">
+                    <prefigure xmlns="https://prefigure.org"
+                               label="prefigure-5-1-matching-1r">
+                        <diagram dimensions="(300,300)" margins="5">
+                            <definition>f(x)=x^3 + x^2</definition>
+                            <coordinates bbox="(-4,-4,4,4)">
+                                <grid-axes xlabel="x" ylabel="y"/>
+                                <graph at="graph" function="f"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </response> 
+        </match>
+        <match>
+            <premise>  <!-- premises should be ORIGINAL functions -->
+                <image width="60%">
+                    <prefigure xmlns="https://prefigure.org"
+                               label="prefigure-5-1-matching-2p">
+                        <diagram dimensions="(300,300)" margins="5">
+                            <definition>f(x)=sin(x)+ 1</definition>
+                            <coordinates bbox="(-4,-4,4,4)">
+                                <grid-axes xlabel="x" ylabel="y"/>
+                                <graph at="graph" function="f"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </premise>
+            <response> <!-- responses should be ANTIderivatives-->
+                <image width="60%">
+                    <prefigure xmlns="https://prefigure.org"
+                               label="prefigure-5-1-matching-2r">
+                        <diagram dimensions="(300,300)" margins="5">
+                            <definition>f(x)=-cos(x)+x</definition>
+                            <coordinates bbox="(-4,-4,4,4)">
+                                <grid-axes xlabel="x" ylabel="y"/>
+                                <graph at="graph" function="f"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </response> 
+        </match>
+        <match>
+            <premise>  <!-- premises should be ORIGINAL functions -->
+                <image width="60%">
+                    <prefigure xmlns="https://prefigure.org"
+                               label="prefigure-5-1-matching-3p">
+                        <diagram dimensions="(300,300)" margins="5">
+                            <definition>f(x)=2*x/(x^2+1)</definition>
+                            <coordinates bbox="(-4,-4,4,4)">
+                                <grid-axes xlabel="x" ylabel="y"/>
+                                <graph at="graph" function="f"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </premise>
+            <response> <!-- responses should be ANTIderivatives-->
+                <image width="60%">
+                    <prefigure xmlns="https://prefigure.org"
+                               label="prefigure-5-1-matching-3r">
+                        <diagram dimensions="(300,300)" margins="5">
+                            <definition>f(x)=ln(x^2+1)</definition>
+                            <coordinates bbox="(-4,-4,4,4)">
+                                <grid-axes xlabel="x" ylabel="y"/>
+                                <graph at="graph" function="f"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </response> 
+        </match>
+        <match>
+            <premise>  <!-- premises should be ORIGINAL functions -->
+                <image width="60%">
+                    <prefigure xmlns="https://prefigure.org"
+                               label="prefigure-5-1-matching-4p">
+                        <diagram dimensions="(300,300)" margins="5">
+                            <definition>F(x)=fabs(x)</definition>
+                            <definition>f(x)=deriv(F,x)</definition>
+                            <coordinates bbox="(-4,-4,4,4)">
+                                <grid-axes xlabel="x" ylabel="y"/>
+                                <graph at="graph" function="f"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </premise>
+            <response> <!-- responses should be ANTIderivatives-->
+                <image width="60%">
+                    <prefigure xmlns="https://prefigure.org"
+                               label="prefigure-5-1-matching-4r">
+                        <diagram dimensions="(300,300)" margins="5">
+                            <definition>f(x)=fabs(x)</definition>
+                            <coordinates bbox="(-4,-4,4,4)">
+                                <grid-axes xlabel="x" ylabel="y"/>
+                                <graph at="graph" function="f"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </response> 
+        </match>
+        <match>
+            <response>decoy 1</response>
+        </match>
+        <match>
+            <response>decoy 2</response>
+        </match>
+        
+        
+        
+    </cardsort>
+</exercise>
+</exercises>

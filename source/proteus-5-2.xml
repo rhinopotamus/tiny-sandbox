@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exercises component="proteus" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="proteus-5-2">
+<title>PROTEUS exercises (for Section 5.2)</title>
+<exercise xml:id="proteus-5-2-spencer" label="proteus-5-2-spencer">
+    <introduction>
+    <p>
+        Consider the function defined by the rule
+        <me>
+            A(x) = \int_{0.5}^x f(t)\, dt
+        </me>.
+        In the figure below, <m>f(t)</m> is the function graphed in blue, and <m>A(3)</m> is found by computing the area shaded in gray.
+        <image width="60%">
+            <prefigure xmlns="https://prefigure.org"
+                       label="proteus-5-2-spencer">
+                <diagram dimensions="(300,300)" margins="5">
+                    <definition>f(t)=t^3/3 - 2*t^2 + 3*t +2</definition>
+                    <coordinates bbox="(-0.5,-0.5,4,4)">
+                        <grid-axes xlabel="t" ylabel="y"/>
+                        <area-under-curve 
+                        function="f" 
+                        domain="(0.5,3)" 
+                        fill="lightgray" 
+                        stroke="black" 
+                        opacity="0.8"
+                        />
+                        <graph at="graph" function="f"/>
+                    </coordinates>
+                </diagram>
+            </prefigure>
+        </image>
+    </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                For some small <m>\Delta x</m>, shade in the area corresponding to <m>A(3+\Delta x)</m> on the figure above. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                As long as <m>\Delta x</m> is relatively small, <m>\Delta A = A(3+\Delta x) - A(3)</m> is well approximated by a rectangle. Draw such a rectangle on the figure above, and label its height and its width.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Since <m>\Delta A</m> is approximately a rectangle, <m>\Delta A</m> is approximately the product of the height and the width. Use your labels from the previous part to write an approximation for <m>\Delta A</m>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What is <m>\dfrac{\Delta A}{\Delta x}</m>?
+            </p>
+        </statement>
+    </task>
+</exercise>
+</exercises>

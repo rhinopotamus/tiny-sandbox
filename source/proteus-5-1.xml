@@ -105,11 +105,12 @@
                     <prefigure xmlns="https://prefigure.org"
                                label="prefigure-5-1-matching-4p">
                         <diagram dimensions="(300,300)" margins="5">
-                            <definition>F(x)=fabs(x)</definition>
-                            <definition>f(x)=deriv(F,x)</definition>
+                            <definition>f(x)=-1</definition>
+                            <definition>g(x)=1</definition>
                             <coordinates bbox="(-4,-4,4,4)">
                                 <grid-axes xlabel="x" ylabel="y"/>
-                                <graph at="graph" function="f"/>
+                                <graph function="f" domain="(-4,0)"/>
+                                <graph function="g" domain="(0,4)"/>
                             </coordinates>
                         </diagram>
                     </prefigure>

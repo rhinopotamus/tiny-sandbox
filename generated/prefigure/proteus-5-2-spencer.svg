@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="diagram" width="310" height="310">
+  <defs>
+    <clipPath id="clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="grid-axes">
+    <g id="grid" stroke="#ccc" stroke-width="1">
+      <line id="line-0" x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+      <line id="line-1" x1="38.3" y1="305.0" x2="38.3" y2="5.0"/>
+      <line id="line-2" x1="71.7" y1="305.0" x2="71.7" y2="5.0"/>
+      <line id="line-3" x1="105.0" y1="305.0" x2="105.0" y2="5.0"/>
+      <line id="line-4" x1="138.3" y1="305.0" x2="138.3" y2="5.0"/>
+      <line id="line-5" x1="171.7" y1="305.0" x2="171.7" y2="5.0"/>
+      <line id="line-6" x1="205.0" y1="305.0" x2="205.0" y2="5.0"/>
+      <line id="line-7" x1="238.3" y1="305.0" x2="238.3" y2="5.0"/>
+      <line id="line-8" x1="271.7" y1="305.0" x2="271.7" y2="5.0"/>
+      <line id="line-9" x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line id="line-10" x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+      <line id="line-11" x1="5.0" y1="271.7" x2="305.0" y2="271.7"/>
+      <line id="line-12" x1="5.0" y1="238.3" x2="305.0" y2="238.3"/>
+      <line id="line-13" x1="5.0" y1="205.0" x2="305.0" y2="205.0"/>
+      <line id="line-14" x1="5.0" y1="171.7" x2="305.0" y2="171.7"/>
+      <line id="line-15" x1="5.0" y1="138.3" x2="305.0" y2="138.3"/>
+      <line id="line-16" x1="5.0" y1="105.0" x2="305.0" y2="105.0"/>
+      <line id="line-17" x1="5.0" y1="71.7" x2="305.0" y2="71.7"/>
+      <line id="line-18" x1="5.0" y1="38.3" x2="305.0" y2="38.3"/>
+      <line id="line-19" x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="axes" stroke="black" stroke-width="2">
+      <line id="line-20" x1="5.0" y1="271.7" x2="305.0" y2="271.7" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="line-21" x1="105.0" y1="274.7" x2="105.0" y2="268.7"/>
+        <line id="line-22" x1="171.7" y1="274.7" x2="171.7" y2="268.7"/>
+        <line id="line-23" x1="238.3" y1="274.7" x2="238.3" y2="268.7"/>
+      </g>
+      <line id="line-24" x1="38.3" y1="305.0" x2="38.3" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="line-25" x1="35.3" y1="205.0" x2="41.3" y2="205.0"/>
+        <line id="line-26" x1="35.3" y1="138.3" x2="41.3" y2="138.3"/>
+        <line id="line-27" x1="35.3" y1="71.7" x2="41.3" y2="71.7"/>
+      </g>
+    </g>
+    <g id="label-0" transform="translate(301.0,267.7) translate(-6.5,-11.5)">
+      <g id="g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
+          <defs>
+            <path id="MJX-2-TEX-I-1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="t">
+                <use data-c="1D461" xlink:href="#MJX-2-TEX-I-1D461"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="label-1" transform="translate(42.3,9.0) translate(0.0,-0.0)">
+      <g id="g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="label-2" transform="translate(105.0,282.7) translate(-4.5,-0.0)">
+      <g id="g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#MJX-4-TEX-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="label-3" transform="translate(171.7,282.7) translate(-4.5,-0.0)">
+      <g id="g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="MJX-5-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#MJX-5-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="label-4" transform="translate(238.3,282.7) translate(-4.5,-0.0)">
+      <g id="g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.432px" role="img" focusable="false" viewBox="0 -665 500 687" x="0.0" y="0.0">
+          <defs>
+            <path id="MJX-6-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="3">
+                <use data-c="33" xlink:href="#MJX-6-TEX-N-33"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="label-5" transform="translate(27.3,205.0) translate(-9.0,-6.0)">
+      <g id="g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="MJX-7-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#MJX-7-TEX-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="label-6" transform="translate(27.3,138.3) translate(-9.0,-6.0)">
+      <g id="g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="MJX-8-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#MJX-8-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="label-7" transform="translate(27.3,71.7) translate(-9.0,-6.2)">
+      <g id="g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.432px" role="img" focusable="false" viewBox="0 -665 500 687" x="0.0" y="0.0">
+          <defs>
+            <path id="MJX-9-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="3">
+                <use data-c="33" xlink:href="#MJX-9-TEX-N-33"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="path-0" d="M 71.7 68.9 L 71.7 68.9 L 73.3 66.9 L 75.0 65.0 L 76.7 63.2 L 78.3 61.5 L 80.0 60.0 L 81.7 58.6 L 83.3 57.2 L 85.0 56.0 L 86.7 54.9 L 88.3 54.0 L 90.0 53.1 L 91.7 52.3 L 93.3 51.6 L 95.0 51.0 L 96.7 50.5 L 98.3 50.1 L 100.0 49.8 L 101.7 49.6 L 103.3 49.5 L 105.0 49.4 L 106.7 49.5 L 108.3 49.6 L 110.0 49.8 L 111.7 50.1 L 113.3 50.4 L 115.0 50.9 L 116.7 51.4 L 118.3 51.9 L 120.0 52.6 L 121.7 53.3 L 123.3 54.0 L 125.0 54.8 L 126.7 55.7 L 128.3 56.7 L 130.0 57.6 L 131.7 58.7 L 133.3 59.8 L 135.0 60.9 L 136.7 62.1 L 138.3 63.3 L 140.0 64.6 L 141.7 65.9 L 143.3 67.3 L 145.0 68.6 L 146.7 70.1 L 148.3 71.5 L 150.0 73.0 L 151.7 74.5 L 153.3 76.0 L 155.0 77.6 L 156.7 79.1 L 158.3 80.7 L 160.0 82.3 L 161.7 84.0 L 163.3 85.6 L 165.0 87.2 L 166.7 88.9 L 168.3 90.6 L 170.0 92.2 L 171.7 93.9 L 173.3 95.6 L 175.0 97.2 L 176.7 98.9 L 178.3 100.5 L 180.0 102.2 L 181.7 103.8 L 183.3 105.4 L 185.0 107.0 L 186.7 108.6 L 188.3 110.2 L 190.0 111.8 L 191.7 113.3 L 193.3 114.8 L 195.0 116.3 L 196.7 117.7 L 198.3 119.1 L 200.0 120.5 L 201.7 121.9 L 203.3 123.2 L 205.0 124.4 L 206.7 125.7 L 208.3 126.9 L 210.0 128.0 L 211.7 129.1 L 213.3 130.1 L 215.0 131.1 L 216.7 132.1 L 218.3 132.9 L 220.0 133.8 L 221.7 134.5 L 223.3 135.2 L 225.0 135.8 L 226.7 136.4 L 228.3 136.9 L 230.0 137.3 L 231.7 137.7 L 233.3 138.0 L 235.0 138.2 L 236.7 138.3 L 238.3 138.3 L 238.3 271.7 L 236.7 271.7 L 235.0 271.7 L 233.3 271.7 L 231.7 271.7 L 230.0 271.7 L 228.3 271.7 L 226.7 271.7 L 225.0 271.7 L 223.3 271.7 L 221.7 271.7 L 220.0 271.7 L 218.3 271.7 L 216.7 271.7 L 215.0 271.7 L 213.3 271.7 L 211.7 271.7 L 210.0 271.7 L 208.3 271.7 L 206.7 271.7 L 205.0 271.7 L 203.3 271.7 L 201.7 271.7 L 200.0 271.7 L 198.3 271.7 L 196.7 271.7 L 195.0 271.7 L 193.3 271.7 L 191.7 271.7 L 190.0 271.7 L 188.3 271.7 L 186.7 271.7 L 185.0 271.7 L 183.3 271.7 L 181.7 271.7 L 180.0 271.7 L 178.3 271.7 L 176.7 271.7 L 175.0 271.7 L 173.3 271.7 L 171.7 271.7 L 170.0 271.7 L 168.3 271.7 L 166.7 271.7 L 165.0 271.7 L 163.3 271.7 L 161.7 271.7 L 160.0 271.7 L 158.3 271.7 L 156.7 271.7 L 155.0 271.7 L 153.3 271.7 L 151.7 271.7 L 150.0 271.7 L 148.3 271.7 L 146.7 271.7 L 145.0 271.7 L 143.3 271.7 L 141.7 271.7 L 140.0 271.7 L 138.3 271.7 L 136.7 271.7 L 135.0 271.7 L 133.3 271.7 L 131.7 271.7 L 130.0 271.7 L 128.3 271.7 L 126.7 271.7 L 125.0 271.7 L 123.3 271.7 L 121.7 271.7 L 120.0 271.7 L 118.3 271.7 L 116.7 271.7 L 115.0 271.7 L 113.3 271.7 L 111.7 271.7 L 110.0 271.7 L 108.3 271.7 L 106.7 271.7 L 105.0 271.7 L 103.3 271.7 L 101.7 271.7 L 100.0 271.7 L 98.3 271.7 L 96.7 271.7 L 95.0 271.7 L 93.3 271.7 L 91.7 271.7 L 90.0 271.7 L 88.3 271.7 L 86.7 271.7 L 85.0 271.7 L 83.3 271.7 L 81.7 271.7 L 80.0 271.7 L 78.3 271.7 L 76.7 271.7 L 75.0 271.7 L 73.3 271.7 L 71.7 271.7 Z" stroke="black" opacity="0.8" stroke-width="2" fill="#ccc"/>
+  <path id="graph" stroke="blue" stroke-width="2" fill="none" d="M 5.0 274.4 L 8.0 259.0 L 11.0 244.3 L 14.0 230.2 L 17.0 216.7 L 20.0 203.9 L 23.0 191.7 L 26.0 180.0 L 29.0 169.0 L 32.0 158.6 L 35.0 148.7 L 38.0 139.3 L 41.0 130.5 L 44.0 122.3 L 47.0 114.5 L 50.0 107.3 L 53.0 100.6 L 56.0 94.3 L 59.0 88.5 L 62.0 83.1 L 65.0 78.2 L 68.0 73.8 L 71.0 69.7 L 74.0 66.1 L 77.0 62.9 L 80.0 60.0 L 83.0 57.5 L 86.0 55.4 L 89.0 53.6 L 92.0 52.1 L 95.0 51.0 L 98.0 50.2 L 101.0 49.7 L 104.0 49.5 L 107.0 49.5 L 110.0 49.8 L 113.0 50.4 L 116.0 51.2 L 119.0 52.2 L 122.0 53.4 L 125.0 54.8 L 128.0 56.5 L 131.0 58.3 L 134.0 60.2 L 137.0 62.3 L 140.0 64.6 L 143.0 67.0 L 146.0 69.5 L 149.0 72.1 L 152.0 74.8 L 155.0 77.6 L 158.0 80.4 L 161.0 83.3 L 164.0 86.3 L 167.0 89.2 L 170.0 92.2 L 173.0 95.2 L 176.0 98.2 L 179.0 101.2 L 182.0 104.1 L 185.0 107.0 L 188.0 109.9 L 191.0 112.7 L 194.0 115.4 L 197.0 118.0 L 200.0 120.5 L 203.0 122.9 L 206.0 125.2 L 209.0 127.3 L 212.0 129.3 L 215.0 131.1 L 218.0 132.8 L 221.0 134.2 L 224.0 135.5 L 227.0 136.5 L 230.0 137.3 L 233.0 137.9 L 236.0 138.3 L 239.0 138.3 L 242.0 138.1 L 245.0 137.6 L 248.0 136.9 L 251.0 135.8 L 254.0 134.4 L 257.0 132.6 L 260.0 130.5 L 263.0 128.1 L 266.0 125.3 L 269.0 122.1 L 272.0 118.5 L 275.0 114.5 L 278.0 110.1 L 281.0 105.2 L 284.0 99.9 L 287.0 94.2 L 290.0 87.9 L 293.0 81.3 L 296.0 74.1 L 299.0 66.4 L 302.0 58.2 L 305.0 49.4" clip-path="url(#clipPath-1)"/>
+</svg>

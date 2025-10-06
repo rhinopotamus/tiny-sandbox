@@ -48,7 +48,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="x">
                 <use data-c="1D465" xlink:href="#MJX-2-TEX-I-1D465"/>
               </g>
             </g>
@@ -64,7 +64,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="y">
                 <use data-c="1D466" xlink:href="#MJX-3-TEX-I-1D466"/>
               </g>
             </g>
@@ -81,7 +81,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
                 <use data-c="2D" xlink:href="#MJX-4-TEX-N-2D"/>
                 <use data-c="32" xlink:href="#MJX-4-TEX-N-32" transform="translate(333,0)"/>
               </g>
@@ -98,7 +98,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
                 <use data-c="32" xlink:href="#MJX-5-TEX-N-32"/>
               </g>
             </g>
@@ -115,7 +115,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
                 <use data-c="2D" xlink:href="#MJX-6-TEX-N-2D"/>
                 <use data-c="32" xlink:href="#MJX-6-TEX-N-32" transform="translate(333,0)"/>
               </g>
@@ -132,7 +132,7 @@
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
                 <use data-c="32" xlink:href="#MJX-7-TEX-N-32"/>
               </g>
             </g>
@@ -141,5 +141,6 @@
       </g>
     </g>
   </g>
-  <path id="graph" stroke="blue" stroke-width="2" fill="none" d="M 5.0 192.5 L 8.0 192.5 L 11.0 192.5 L 14.0 192.5 L 17.0 192.5 L 20.0 192.5 L 23.0 192.5 L 26.0 192.5 L 29.0 192.5 L 32.0 192.5 L 35.0 192.5 L 38.0 192.5 L 41.0 192.5 L 44.0 192.5 L 47.0 192.5 L 50.0 192.5 L 53.0 192.5 L 56.0 192.5 L 59.0 192.5 L 62.0 192.5 L 65.0 192.5 L 68.0 192.5 L 71.0 192.5 L 74.0 192.5 L 77.0 192.5 L 80.0 192.5 L 83.0 192.5 L 86.0 192.5 L 89.0 192.5 L 92.0 192.5 L 95.0 192.5 L 98.0 192.5 L 101.0 192.5 L 104.0 192.5 L 107.0 192.5 L 110.0 192.5 L 113.0 192.5 L 116.0 192.5 L 119.0 192.5 L 122.0 192.5 L 125.0 192.5 L 128.0 192.5 L 131.0 192.5 L 134.0 192.5 L 137.0 192.5 L 140.0 192.5 L 143.0 192.5 L 146.0 192.5 L 149.0 192.5 L 152.0 193.2 L 155.0 117.5 L 158.0 117.5 L 161.0 117.5 L 164.0 117.5 L 167.0 117.5 L 170.0 117.5 L 173.0 117.5 L 176.0 117.5 L 179.0 117.5 L 182.0 117.5 L 185.0 117.5 L 188.0 117.5 L 191.0 117.5 L 194.0 117.5 L 197.0 117.5 L 200.0 117.5 L 203.0 117.5 L 206.0 117.5 L 209.0 117.5 L 212.0 117.5 L 215.0 117.5 L 218.0 117.5 L 221.0 117.5 L 224.0 117.5 L 227.0 117.5 L 230.0 117.5 L 233.0 117.5 L 236.0 117.5 L 239.0 117.5 L 242.0 117.5 L 245.0 117.5 L 248.0 117.5 L 251.0 117.5 L 254.0 117.5 L 257.0 117.5 L 260.0 117.5 L 263.0 117.5 L 266.0 117.5 L 269.0 117.5 L 272.0 117.5 L 275.0 117.5 L 278.0 117.5 L 281.0 117.5 L 284.0 117.5 L 287.0 117.5 L 290.0 117.5 L 293.0 117.5 L 296.0 117.5 L 299.0 117.5 L 302.0 117.5 L 305.0 117.5" clip-path="url(#clipPath-1)"/>
+  <path id="graph-0" stroke="blue" stroke-width="2" fill="none" d="M 5.0 192.5 L 6.5 192.5 L 8.0 192.5 L 9.5 192.5 L 11.0 192.5 L 12.5 192.5 L 14.0 192.5 L 15.5 192.5 L 17.0 192.5 L 18.5 192.5 L 20.0 192.5 L 21.5 192.5 L 23.0 192.5 L 24.5 192.5 L 26.0 192.5 L 27.5 192.5 L 29.0 192.5 L 30.5 192.5 L 32.0 192.5 L 33.5 192.5 L 35.0 192.5 L 36.5 192.5 L 38.0 192.5 L 39.5 192.5 L 41.0 192.5 L 42.5 192.5 L 44.0 192.5 L 45.5 192.5 L 47.0 192.5 L 48.5 192.5 L 50.0 192.5 L 51.5 192.5 L 53.0 192.5 L 54.5 192.5 L 56.0 192.5 L 57.5 192.5 L 59.0 192.5 L 60.5 192.5 L 62.0 192.5 L 63.5 192.5 L 65.0 192.5 L 66.5 192.5 L 68.0 192.5 L 69.5 192.5 L 71.0 192.5 L 72.5 192.5 L 74.0 192.5 L 75.5 192.5 L 77.0 192.5 L 78.5 192.5 L 80.0 192.5 L 81.5 192.5 L 83.0 192.5 L 84.5 192.5 L 86.0 192.5 L 87.5 192.5 L 89.0 192.5 L 90.5 192.5 L 92.0 192.5 L 93.5 192.5 L 95.0 192.5 L 96.5 192.5 L 98.0 192.5 L 99.5 192.5 L 101.0 192.5 L 102.5 192.5 L 104.0 192.5 L 105.5 192.5 L 107.0 192.5 L 108.5 192.5 L 110.0 192.5 L 111.5 192.5 L 113.0 192.5 L 114.5 192.5 L 116.0 192.5 L 117.5 192.5 L 119.0 192.5 L 120.5 192.5 L 122.0 192.5 L 123.5 192.5 L 125.0 192.5 L 126.5 192.5 L 128.0 192.5 L 129.5 192.5 L 131.0 192.5 L 132.5 192.5 L 134.0 192.5 L 135.5 192.5 L 137.0 192.5 L 138.5 192.5 L 140.0 192.5 L 141.5 192.5 L 143.0 192.5 L 144.5 192.5 L 146.0 192.5 L 147.5 192.5 L 149.0 192.5 L 150.5 192.5 L 152.0 192.5 L 153.5 192.5 L 155.0 192.5" clip-path="url(#clipPath-1)"/>
+  <path id="graph-1" stroke="blue" stroke-width="2" fill="none" d="M 155.0 117.5 L 156.5 117.5 L 158.0 117.5 L 159.5 117.5 L 161.0 117.5 L 162.5 117.5 L 164.0 117.5 L 165.5 117.5 L 167.0 117.5 L 168.5 117.5 L 170.0 117.5 L 171.5 117.5 L 173.0 117.5 L 174.5 117.5 L 176.0 117.5 L 177.5 117.5 L 179.0 117.5 L 180.5 117.5 L 182.0 117.5 L 183.5 117.5 L 185.0 117.5 L 186.5 117.5 L 188.0 117.5 L 189.5 117.5 L 191.0 117.5 L 192.5 117.5 L 194.0 117.5 L 195.5 117.5 L 197.0 117.5 L 198.5 117.5 L 200.0 117.5 L 201.5 117.5 L 203.0 117.5 L 204.5 117.5 L 206.0 117.5 L 207.5 117.5 L 209.0 117.5 L 210.5 117.5 L 212.0 117.5 L 213.5 117.5 L 215.0 117.5 L 216.5 117.5 L 218.0 117.5 L 219.5 117.5 L 221.0 117.5 L 222.5 117.5 L 224.0 117.5 L 225.5 117.5 L 227.0 117.5 L 228.5 117.5 L 230.0 117.5 L 231.5 117.5 L 233.0 117.5 L 234.5 117.5 L 236.0 117.5 L 237.5 117.5 L 239.0 117.5 L 240.5 117.5 L 242.0 117.5 L 243.5 117.5 L 245.0 117.5 L 246.5 117.5 L 248.0 117.5 L 249.5 117.5 L 251.0 117.5 L 252.5 117.5 L 254.0 117.5 L 255.5 117.5 L 257.0 117.5 L 258.5 117.5 L 260.0 117.5 L 261.5 117.5 L 263.0 117.5 L 264.5 117.5 L 266.0 117.5 L 267.5 117.5 L 269.0 117.5 L 270.5 117.5 L 272.0 117.5 L 273.5 117.5 L 275.0 117.5 L 276.5 117.5 L 278.0 117.5 L 279.5 117.5 L 281.0 117.5 L 282.5 117.5 L 284.0 117.5 L 285.5 117.5 L 287.0 117.5 L 288.5 117.5 L 290.0 117.5 L 291.5 117.5 L 293.0 117.5 L 294.5 117.5 L 296.0 117.5 L 297.5 117.5 L 299.0 117.5 L 300.5 117.5 L 302.0 117.5 L 303.5 117.5 L 305.0 117.5" clip-path="url(#clipPath-1)"/>
 </svg>

@@ -12,7 +12,7 @@
         In the figure below, <m>f(t)</m> is the function graphed in blue, and <m>A(3)</m> is found by computing the area shaded in gray.
         <image width="60%">
             <prefigure xmlns="https://prefigure.org"
-                       label="proteus-5-2-spencer">
+                       label="prefigure-5-2-spencer">
                 <diagram dimensions="(300,300)" margins="5">
                     <definition>f(t)=t^3/3 - 2*t^2 + 3*t +2</definition>
                     <coordinates bbox="(-0.5,-0.5,4,4)">
@@ -31,33 +31,94 @@
         </image>
     </p>
     </introduction>
-    <task>
+    <task label="proteus-5-2-spencer-1">
         <statement>
             <p>
                 For some small <m>\Delta x</m>, shade in the area corresponding to <m>A(3+\Delta x)</m> on the figure above. 
             </p>
         </statement>
     </task>
-    <task>
+    <task label="proteus-5-2-spencer-2">
         <statement>
             <p>
                 As long as <m>\Delta x</m> is relatively small, <m>\Delta A = A(3+\Delta x) - A(3)</m> is well approximated by a rectangle. Draw such a rectangle on the figure above, and label its height and its width.
             </p>
         </statement>
     </task>
-    <task>
+    <task label="proteus-5-2-spencer-3">
         <statement>
             <p>
                 Since <m>\Delta A</m> is approximately a rectangle, <m>\Delta A</m> is approximately the product of the height and the width. Use your labels from the previous part to write an approximation for <m>\Delta A</m>.
             </p>
         </statement>
+        <response />
     </task>
-    <task>
+    <task  label="proteus-5-2-spencer-4">
         <statement>
             <p>
                 What is <m>\dfrac{\Delta A}{\Delta x}</m>?
             </p>
         </statement>
+        <response />
     </task>
+</exercise>
+
+<exercise xml:id="proteus-5-2-matt" label="proteus-5-2-matt">
+    <introduction>
+        <p>
+            Consider the piecewise linear function <m>y=f(x)</m> defined by this graph on the interval <m>0 \leq x \leq 8</m>:
+            <image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                       label="prefigure-5-2-matt">
+                    <diagram dimensions="(500,300)" margins="5">
+                        <definition>f(x)=x</definition>
+                        <definition>g(x)=4-x</definition>
+                        <definition>h(x)=x-8</definition>
+                        <coordinates bbox="(-1,-3,9,3)">
+                            <grid-axes xlabel="x" ylabel="y"/>
+                            <graph domain="(0,2)" function="f"/>
+                            <graph domain="(2,6)" function="g"/>
+                            <graph domain="(6,8)" function="h"/>
+                        </coordinates>
+                    </diagram>
+                </prefigure>
+            </image>
+            Let <m>A</m> be the function defined by the rule <m>A(x)=\displaystyle\int_0^x f(t)\ dt</m>.
+        </p>
+        <!-- Build as table full of fillins? -->
+        <task label="proteus-5-2-matt-1">
+            <statement>
+                <p>
+                    Reasoning from the graph, find the values of 
+                    <m>A(1)</m>,
+                    <m>A(2)</m>,
+                    <m>A(3)</m>,
+                    <m>A(4)</m>,
+                    <m>A(5)</m>,
+                    <m>A(6)</m>,
+                    <m>A(7)</m>, and
+                    <m>A(8)</m>,
+                </p>.
+            </statement>
+            <response />
+        </task>
+        <task label="proteus-5-2-matt-2">
+            <statement>
+                <p>
+                    Name two trends or patterns that you observe in the values of <m>A(x)</m> that you found in part (a).
+                </p>
+            </statement>
+            <response />
+        </task>
+        <task label="proteus-5-2-matt-3">
+            <statement>
+                <p>
+                    On the interval <m>0\leq x \leq 2</m>, do you expect the graph of <m>A(x)</m> to be constant, linear, quadratic, or something else? Why?
+                </p>
+            </statement>
+            <response />
+        </task>
+    </introduction>
+    
 </exercise>
 </exercises>

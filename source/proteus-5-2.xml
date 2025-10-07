@@ -9,32 +9,74 @@
         <me>
             A(x) = \int_{0.5}^x f(t)\, dt
         </me>.
-        In the figure below, <m>f(t)</m> is the function graphed in blue, and <m>A(3)</m> is found by computing the area shaded in gray.
-        <image width="60%">
-            <prefigure xmlns="https://prefigure.org"
-                       label="prefigure-5-2-spencer">
-                <diagram dimensions="(300,300)" margins="5">
-                    <definition>f(t)=t^3/3 - 2*t^2 + 3*t +2</definition>
-                    <coordinates bbox="(-0.5,-0.5,4,4)">
-                        <grid-axes xlabel="t" ylabel="y"/>
-                        <area-under-curve 
-                        function="f" 
-                        domain="(0.5,3)" 
-                        fill="lightgray" 
-                        stroke="black" 
-                        opacity="0.8"
-                        />
-                        <graph at="graph" function="f"/>
-                    </coordinates>
-                </diagram>
-            </prefigure>
-        </image>
+        In the figures below, <m>f(t)</m> is the function graphed in blue. 
+        <m>A(3)</m> is found by computing the area shaded in gray in the figure on the left, 
+        and <m>A(3+\Delta x)</m> is found by computing the area shaded in green in the figure on the right.
+        <sidebyside>
+            <image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                        label="prefigure-5-2-spencer">
+                    <diagram dimensions="(300,300)" margins="5">
+                        <definition>f(t)=t^3/3 - 2*t^2 + 3*t +2</definition>
+                        <coordinates bbox="(-0.5,-0.5,4,4)">
+                            <grid-axes xlabel="t" ylabel="y"/>
+                            <area-under-curve 
+                                function="f" 
+                                domain="(0.5,3)" 
+                                fill="lightgray" 
+                                stroke="black" 
+                                opacity="0.8"
+                            />
+                            <graph at="graph" function="f"/>
+                            <point p="(3, f(3))" alignment="southeast">
+                                <m>P</m>
+                            </point>
+                            <label anchor="(4,f(4))" alignment="west">
+                                <m>f(t)</m>
+                            </label>
+                        </coordinates>
+                    </diagram>
+                </prefigure>
+            </image>
+            <image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                        label="prefigure-5-2-spencer-2">
+                    <diagram dimensions="(300,300)" margins="5">
+                        <definition>f(t)=t^3/3 - 2*t^2 + 3*t +2</definition>    
+                        <coordinates bbox="(-0.5,-0.5,4,4)">
+                            <grid-axes 
+                                xlabel="t" 
+                                ylabel="y"
+                            />
+                            <area-under-curve 
+                                function="f" 
+                                domain="(0.5,3.2)" 
+                                fill="rgb(0, 153, 153)" 
+                                stroke="black" 
+                                opacity="0.6"
+                            />
+                            <graph at="graph" function="f" />
+                            <point p="(3.2, f(3.2))" alignment="southeast">
+                                <m>Q</m>
+                            </point>
+                            <label anchor="(4,f(4))" alignment="west">
+                                <m>f(t)</m>
+                            </label>
+                            <tick-mark location="3.2" alignment="southeast" scale="0.85">
+                                <m>3+\Delta x</m>
+                            </tick-mark>
+                        </coordinates>
+                    </diagram>
+                </prefigure>
+            </image>
+        </sidebyside>
     </p>
     </introduction>
     <task label="proteus-5-2-spencer-1">
         <statement>
             <p>
-                For some small <m>\Delta x</m>, shade in the area corresponding to <m>A(3+\Delta x)</m> on the figure above. 
+                Label the coordinates of point <m>P = (\rule{0.2cm}{0.15mm}, f(\rule{0.2cm}{0.15mm}))</m>
+                and of point <m>Q = (\rule{0.2cm}{0.15mm}, f(\rule{0.2cm}{0.15mm}))</m>.
             </p>
         </statement>
     </task>
@@ -89,18 +131,115 @@
         <task label="proteus-5-2-matt-1">
             <statement>
                 <p>
-                    Reasoning from the graph, find the values of 
-                    <m>A(1)</m>,
-                    <m>A(2)</m>,
-                    <m>A(3)</m>,
-                    <m>A(4)</m>,
-                    <m>A(5)</m>,
-                    <m>A(6)</m>,
-                    <m>A(7)</m>, and
-                    <m>A(8)</m>,
-                </p>.
+                    Reasoning from the graph, fill in the values of <m>A(x)</m> in the table below.
+                </p>
+                <tabular>
+                    <row>
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>8</m></cell>
+                    </row>
+                    <row> <!-- <fillin mode="math" width="15" ansobj="correctD1" name="firstD"/> -->
+                        <cell><m>A(x)</m></cell>
+                        <cell><fillin width="1" name="blank1" answer="0.5"/></cell>
+                        <cell><fillin width="1" name="blank2" answer="2"/></cell>
+                        <cell><fillin width="1" name="blank3" answer="3.5"/></cell>
+                        <cell><fillin width="1" name="blank4" answer="4"/></cell>
+                        <cell><fillin width="1" name="blank5" answer="3.5"/></cell>
+                        <cell><fillin width="1" name="blank6" answer="2"/></cell>
+                        <cell><fillin width="1" name="blank7" answer="0.5"/></cell>
+                        <cell><fillin width="1" name="blank8" answer="0"/></cell>
+                    </row>
+                </tabular>
             </statement>
-            <response />
+            <evaluation>
+                <evaluate submit="blank1">
+                    <test correct="yes">
+                        <numcmp use-answer="yes" />
+                        <feedback>
+                            <p>
+                                yay good job
+                            </p>
+                        </feedback>
+                    </test>
+                </evaluate>
+                <evaluate submit="blank2">
+                    <test correct="yes">
+                        <numcmp use-answer="yes" />
+                        <feedback>
+                            <p>
+                                yay good job
+                            </p>
+                        </feedback>
+                    </test>
+                </evaluate>
+                <evaluate submit="blank3">
+                    <test correct="yes">
+                        <numcmp use-answer="yes" />
+                        <feedback>
+                            <p>
+                                yay good job
+                            </p>
+                        </feedback>
+                    </test>
+                </evaluate>
+                <evaluate submit="blank4">
+                    <test correct="yes">
+                        <numcmp use-answer="yes" />
+                        <feedback>
+                            <p>
+                                yay good job
+                            </p>
+                        </feedback>
+                    </test>
+                </evaluate>
+                <evaluate submit="blank5">
+                    <test correct="yes">
+                        <numcmp use-answer="yes" />
+                        <feedback>
+                            <p>
+                                yay good job
+                            </p>
+                        </feedback>
+                    </test>
+                </evaluate>
+                <evaluate submit="blank6">
+                    <test correct="yes">
+                        <numcmp use-answer="yes" />
+                        <feedback>
+                            <p>
+                                yay good job
+                            </p>
+                        </feedback>
+                    </test>
+                </evaluate>
+                <evaluate submit="blank7">
+                    <test correct="yes">
+                        <numcmp use-answer="yes" />
+                        <feedback>
+                            <p>
+                                yay good job
+                            </p>
+                        </feedback>
+                    </test>
+                </evaluate>
+                <evaluate submit="blank8">
+                    <test correct="yes">
+                        <numcmp use-answer="yes" />
+                        <feedback>
+                            <p>
+                                yay good job
+                            </p>
+                        </feedback>
+                    </test>
+                </evaluate>
+            </evaluation>
         </task>
         <task label="proteus-5-2-matt-2">
             <statement>

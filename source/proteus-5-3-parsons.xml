@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exercises component="proteus" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="proteus-5-3">
+<title>PROTEUS exercises (for Section 5.3)</title>
+<introduction>
+    <p>
+        Each of the following expressions is the result of the Chain Rule being applied to a composite function. In other words, it is the right-hand side of the Chain Rule:
+        <me>
+            \dfrac{d}{dx} \left[ F(g(x)) \right] = f(g(x)) g'(x)
+        </me>. 
+        Drag the blocks in each problem below to identify the functions <m>f</m>, <m>g</m>, and <m>g'</m>, and then calculate the original composite function.
+    </p>
+</introduction>
+<exercise xml:id="proteus-5-3-parsons-1" label="proteus-5-3-parsons-1">
+    <statement>
+        <p>
+            <me>
+                2 (2x+5)^7 = f(g(x)) g'(x)
+            </me>
+            Drag <m>f(x)</m>, <m>g(x)</m>, <m>g'(x)</m>, and <m>F(g(x))</m> into the box below, in that order.
+        </p>
+    </statement>
+    <blocks layout="horizontal" randomize="yes">
+        <block>
+            <m>x^7</m>
+        </block>
+        <block>
+            <m>2x+5</m>
+        </block>
+        <block>
+            <m>2</m>
+        </block>
+        <block>
+            <m>\frac{1}{8}(2x+5)^8</m>
+        </block>
+    </blocks>
+</exercise>
+<exercise xml:id="proteus-5-3-matching-1" label="proteus-5-3-matching-1">
+    <statement>
+        <p>
+            <me>
+                2 (2x+5)^7 = f(g(x)) g'(x)
+            </me>
+            Drag the cards from the left column into the correct labels <m>f(x)</m>, <m>g(x)</m>, <m>g'(x)</m>, and <m>F(g(x))</m> in the right column.
+        </p>
+    </statement>
+    <cardsort>
+        <match>
+            <premise><m>x^7</m></premise>
+            <response><m>f(x)</m></response>
+        </match>
+        <match>
+            <premise><m>2x+5</m></premise>
+            <response><m>g(x)</m></response>
+        </match>
+        <match>
+            <premise><m>2</m></premise>
+            <response><m>g'(x)</m></response>
+        </match>
+        <match>
+            <premise><m>\frac{1}{8}x^8</m></premise>
+            <response><m>F(g(x))</m></response>
+        </match>
+    </cardsort>
+</exercise>
+<exercise xml:id="proteus-5-3-parsons-2" label="proteus-5-3-parsons-2">
+    <statement>
+        <p>
+            <me>
+                \sin\left(e^x\right) e^x = f (g(x) ) g'(x)
+            </me>
+            Drag <m>f(x)</m>, <m>g(x)</m>, <m>g'(x)</m>, and <m>F(g(x))</m> into the box below, in that order.
+        </p>
+    </statement>
+    <blocks layout="horizontal" randomize="yes">
+        <block>
+            <m>\sin(x)</m>
+        </block>
+        <block>
+            <m>e^x</m>
+        </block>
+        <block>
+            <m>e^x</m>
+        </block>
+        <block>
+            <m>-\cos\left(e^x\right)</m>
+        </block>
+    </blocks>
+</exercise>
+<exercise xml:id="proteus-5-3-matching-2" label="proteus-5-3-matching-2">
+    <statement>
+        <p>
+            <me>
+                \sin\left(e^x\right) e^x = f (g(x) ) g'(x)
+            </me>
+            Drag the cards from the left column into the correct labels <m>f(x)</m>, <m>g(x)</m>, <m>g'(x)</m>, and <m>F(g(x))</m> in the right column.
+        </p>
+    </statement>
+    <matching>
+        <premise ref="inside derivative"><m>e^x</m></premise>
+        <premise ref="outside"><m>\sin(x)</m></premise>
+        <premise ref="antiderivative"><m>-\cos(e^x)</m></premise>
+        <response xml:id="outside"><m>f(x)</m></response>
+        <response xml:id="inside"><m>g(x)</m></response>
+        <response xml:id="derivative"><m>g'(x)</m></response>
+        <response xml:id="antiderivative"><m>F(g(x))</m></response>
+    </matching>
+</exercise>
+<exercise xml:id="proteus-5-3-parsons-3" label="proteus-5-3-parsons-3">
+    <statement>
+        <p>
+            <me>
+                3x^2 e^{x^3+2} = f (g(x) ) g'(x)
+            </me>
+            Drag <m>f(x)</m>, <m>g(x)</m>, <m>g'(x)</m>, and <m>F(g(x))</m> into the box below, in that order.
+        </p>
+    </statement>
+    <blocks layout="horizontal" randomize="yes">
+        <block>
+            <m>e^x</m>
+        </block>
+        <block>
+            <m>x^3+2</m>
+        </block>
+        <block>
+            <m>3x^2</m>
+        </block>
+        <block>
+            <m>e^{x^3+2}</m>
+        </block>
+    </blocks>
+</exercise>
+<exercise xml:id="proteus-5-3-matching-3" label="proteus-5-3-matching-3">
+    <statement>
+        <p>
+            <me>
+                3x^2 e^{x^3+2} = f (g(x) ) g'(x)
+            </me>
+            Drag the cards from the left column into the correct labels <m>f(x)</m>, <m>g(x)</m>, <m>g'(x)</m>, and <m>F(g(x))</m> in the right column.
+        </p>
+    </statement>
+    <cardsort>
+        <match>
+            <premise><m>e^x</m></premise>
+            <response><m>f(x)</m></response>
+        </match>
+        <match order="">
+            <premise><m>x^3+2</m></premise>
+            <response><m>g(x)</m></response>
+        </match>
+        <match order="">
+            <premise><m>3x^2</m></premise>
+            <response><m>g'(x)</m></response>
+        </match>
+        <match order="">
+            <premise><m>e^{x^3+2}</m></premise>
+            <response><m>F(g(x))</m></response>
+        </match>
+    </cardsort>
+</exercise>
+</exercises>

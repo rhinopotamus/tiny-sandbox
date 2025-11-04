@@ -8,14 +8,11 @@
         <me>
             \dfrac{d}{dx} \left[ F(g(x)) \right] = F'(g(x)) g'(x) = f(g(x)) g'(x)
         </me>,
-        OR, Eyerusalem requested to see what it looks like, version 2:
-        <me>
-            \dfrac{d}{dx} \left[ F(g(x)) \right] = f(g(x)) g'(x)
-        </me>
         where <m>F(x)</m> is an antiderivative of <m>f(x)</m>, so that <m>F'(x) = f(x)</m>.
     </p>
     <p>
-        In each of the problems below, your job is to identify the functions <m>f</m>, <m>g</m>, and <m>g'</m>, recover the antiderivative <m>F</m>, and then calculate the original composite function <m>F(g(x))</m>.
+        In each of the problems below, your job is to identify the functions <m>f</m>, <m>g</m>, and <m>g'</m>.
+        <!-- , recover the antiderivative <m>F</m>, and then calculate the original composite function <m>F(g(x))</m>. -->
     </p>
 </introduction>
 <exercise xml:id="proteus-5-3-matching-1" label="proteus-5-3-matching-1">
@@ -30,24 +27,24 @@
     <cardsort>
         <match>
             <premise><m>2x+5</m></premise>
-            <response><m>g(x)</m></response>
+            <response>Inner function <m>g(x)</m></response>
         </match>
         <match>
             <premise><m>2</m></premise>
-            <response><m>g'(x)</m></response>
+            <response>Derivative of inner function <m>g'(x)</m></response>
         </match>
         <match>
             <premise><m>x^7</m></premise>
-            <response><m>f(x)</m></response>
+            <response>Outer function <m>f(x)</m></response>
         </match>
-        <match>
+        <!-- <match>
             <premise><m>\frac{1}{8} x^8</m></premise>
             <response><m>F(x)</m></response>
         </match>
         <match>
             <premise><m>\frac{1}{8}(2x+5)^8</m></premise>
             <response><m>F(g(x))</m></response>
-        </match>
+        </match> -->
     </cardsort>
 </exercise>
 <exercise xml:id="proteus-5-3-matching-2" label="proteus-5-3-matching-2">
@@ -62,24 +59,24 @@
     <cardsort>
         <match>
             <premise><m>2^x</m></premise>
-            <response><m>g(x)</m></response>
+            <response>Inner function <m>g(x)</m></response>
         </match>
         <match>
             <premise><m>2^x \ln(2)</m></premise>
-            <response><m>g'(x)</m></response>
+            <response>Derivative of inner function <m>g'(x)</m></response>
         </match>
         <match>
             <premise><m>\sin(x)</m></premise>
-            <response><m>f(x)</m></response>
+            <response>Outer function <m>f(x)</m></response>
         </match>
-        <match>
+        <!-- <match>
             <premise><m>-\cos(x)</m></premise>
             <response><m>F(x)</m></response>
         </match>
         <match>
             <premise><m>-\cos(2^x)</m></premise>
             <response><m>F(g(x))</m></response>
-        </match>
+        </match> -->
     </cardsort>
 </exercise>
 <exercise xml:id="proteus-5-3-matching-3" label="proteus-5-3-matching-3">
@@ -94,24 +91,56 @@
     <cardsort>
         <match>
             <premise><m>x^3+2</m></premise>
-            <response><m>g(x)</m></response>
+            <response>Inner function <m>g(x)</m></response>
         </match>
         <match>
             <premise><m>3x^2</m></premise>
-            <response><m>g'(x)</m></response>
+            <response>Derivative of inner function <m>g'(x)</m></response>
         </match>
         <match>
             <premise><m>\sqrt{x}</m></premise>
-            <response><m>f(x)</m></response>
+            <response>Outer function <m>f(x)</m></response>
         </match>
-        <match>
+        <!-- <match>
             <premise><m>\frac{2}{3}x^{3/2}</m></premise>
             <response><m>F(x)</m></response>
         </match>
         <match>
             <premise><m>\frac{2}{3}(x^3+2)^{3/2}</m></premise>
             <response><m>F(g(x))</m></response>
+        </match> -->
+    </cardsort>
+</exercise>
+<exercise xml:id="proteus-5-3-matching-4" label="proteus-5-3-matching-4">
+    <statement>
+        <p>
+            <me>
+                x^2 \sqrt{x^3+2} = f (g(x) ) g'(x)
+            </me>
+            Drag the cards from the left column into the correct labels in the right column.
+        </p>
+    </statement>
+    <cardsort>
+        <match>
+            <premise><m>x^3+2</m></premise>
+            <response>Inner function <m>g(x)</m></response>
         </match>
+        <match>
+            <premise><m>x^2</m></premise>
+            <response><q>Almost</q> the derivative of inner function <m>g'(x)</m></response>
+        </match>
+        <match>
+            <premise><m>\sqrt{x}</m></premise>
+            <response>Outer function <m>f(x)</m></response>
+        </match>
+        <!-- <match>
+            <premise><m>\frac{2}{3}x^{3/2}</m></premise>
+            <response><m>F(x)</m></response>
+        </match>
+        <match>
+            <premise><m>\frac{2}{3}(x^3+2)^{3/2}</m></premise>
+            <response><m>F(g(x))</m></response>
+        </match> -->
     </cardsort>
 </exercise>
 </exercises>

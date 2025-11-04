@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-proteus-5-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>PROTEUS drafts 5.1</title>
+
+  <p>Drafts of PROTEUS 5.1.</p>
+
+  <xi:include href="./proteus-5-1.xml" />
+  <xi:include href="./proteus-5-1-lines.xml" />
+</section>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exercises component="proteus" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="proteus-5-1">
+<title>PROTEUS exercises (for Section 5.1)</title>
+<exercise xml:id="proteus-5-1-matching-letters" label="proteus-5-1-matching-letters">
+    <statement>
+        <p>
+            Here are some graphs:
+            <sbsgroup widths="40% 40%">
+                <sidebyside>
+                    <figure>
+                        <caption>Graph a</caption>
+                        <image width="100%">
+                            <prefigure xmlns="https://prefigure.org"
+                                    label="prefigure-5-1-matching-1p">
+                                <diagram dimensions="(300,300)" margins="5">
+                                    <definition>f(x)=3*x^2 + 2*x</definition>
+                                    <coordinates bbox="(-4,-4,4,4)">
+                                        <grid-axes xlabel="x" ylabel="y"/>
+                                        <graph at="graph" function="f"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+                    </figure>
+
+                    <figure>
+                        <caption>Graph b</caption>
+                        <image width="100%">
+                            <prefigure xmlns="https://prefigure.org"
+                                    label="prefigure-5-1-matching-2p">
+                                <diagram dimensions="(300,300)" margins="5">
+                                    <definition>f(x)=sin(x)+ 1</definition>
+                                    <coordinates bbox="(-4,-4,4,4)">
+                                        <grid-axes xlabel="x" ylabel="y"/>
+                                        <graph at="graph" function="f"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+                    </figure>
+                </sidebyside>
+                <sidebyside>
+                    <figure>
+                        <caption>Graph c</caption>
+                        <image width="100%">
+                            <prefigure xmlns="https://prefigure.org"
+                                    label="prefigure-5-1-matching-3p">
+                                <diagram dimensions="(300,300)" margins="5">
+                                    <definition>f(x)=2*x/(x^2+1)</definition>
+                                    <coordinates bbox="(-4,-4,4,4)">
+                                        <grid-axes xlabel="x" ylabel="y"/>
+                                        <graph at="graph" function="f"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+                    </figure>
+
+                    <figure>
+                        <caption>Graph d</caption>
+                        <image width="100%">
+                            <prefigure xmlns="https://prefigure.org"
+                                    label="prefigure-5-1-matching-4p">
+                                <diagram dimensions="(300,300)" margins="5">
+                                    <definition>f(x)=-1</definition>
+                                    <definition>g(x)=1</definition>
+                                    <coordinates bbox="(-4,-4,4,4)">
+                                        <grid-axes xlabel="x" ylabel="y"/>
+                                        <graph function="f" domain="(-4,0)"/>
+                                        <graph function="g" domain="(0,4)"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </sbsgroup>
+        </p>
+
+        <p>
+            And here are some antiderivatives:
+            <sbsgroup widths="40% 40%">
+                <sidebyside>
+                    <figure>
+                        <caption>Graph A</caption>
+                        <image width="100%">
+                            <prefigure xmlns="https://prefigure.org"
+                            label="prefigure-5-1-matching-1r">
+                                <diagram dimensions="(300,300)" margins="5">
+                                    <definition>f(x)=x^3 + x^2</definition>
+                                    <coordinates bbox="(-4,-4,4,4)">
+                                        <grid-axes xlabel="x" ylabel="y"/>
+                                        <graph at="graph" function="f"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+                    </figure>
+                    
+                    <figure>
+                        <caption>Graph B</caption>
+                        <image width="100%">
+                            <prefigure xmlns="https://prefigure.org"
+                                    label="prefigure-5-1-matching-2r">
+                                <diagram dimensions="(300,300)" margins="5">
+                                    <definition>f(x)=-cos(x)+x</definition>
+                                    <coordinates bbox="(-4,-4,4,4)">
+                                        <grid-axes xlabel="x" ylabel="y"/>
+                                        <graph at="graph" function="f"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+                    </figure>
+                </sidebyside>
+                <sidebyside>
+                    <figure>
+                        <caption>Graph C</caption>
+                        <image width="100%">
+                            <prefigure xmlns="https://prefigure.org"
+                                    label="prefigure-5-1-matching-3r">
+                                <diagram dimensions="(300,300)" margins="5">
+                                    <definition>f(x)=ln(x^2+1)</definition>
+                                    <coordinates bbox="(-4,-4,4,4)">
+                                        <grid-axes xlabel="x" ylabel="y"/>
+                                        <graph at="graph" function="f"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+                    </figure>
+
+                    <figure>
+                        <caption>Graph D</caption>
+                        <image width="100%">
+                            <prefigure xmlns="https://prefigure.org"
+                                    label="prefigure-5-1-matching-4r">
+                                <diagram dimensions="(300,300)" margins="5">
+                                    <definition>f(x)=fabs(x)</definition>
+                                    <coordinates bbox="(-4,-4,4,4)">
+                                        <grid-axes xlabel="x" ylabel="y"/>
+                                        <graph at="graph" function="f"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </sbsgroup>
+        </p>
+    </statement>
+    <feedback>
+        <p>
+            Look now they are lined up all nice with the orig on top of the antideriv!
+        </p>
+        <figure>
+            <caption>A graph on top of its antiderivative</caption>
+            <image width="100%">
+                <prefigure xmlns="https://prefigure.org"
+                        label="prefigure-5-1-matching-1p">
+                    <diagram dimensions="(300,300)" margins="5">
+                        <definition>f(x)=3*x^2 + 2*x</definition>
+                        <coordinates bbox="(-4,-4,4,4)">
+                            <grid-axes xlabel="x" ylabel="y"/>
+                            <graph at="graph" function="f"/>
+                        </coordinates>
+                    </diagram>
+                </prefigure>
+            </image>
+
+            <image width="100%">
+                <prefigure xmlns="https://prefigure.org"
+                label="prefigure-5-1-matching-1r">
+                    <diagram dimensions="(300,300)" margins="5">
+                        <definition>f(x)=x^3 + x^2</definition>
+                        <coordinates bbox="(-4,-4,4,4)">
+                            <grid-axes xlabel="x" ylabel="y"/>
+                            <graph at="graph" function="f"/>
+                        </coordinates>
+                    </diagram>
+                </prefigure>
+            </image>
+        </figure>
+    </feedback>
+    <cardsort>
+        <match>
+            <premise>  <!-- premises should be ORIGINAL functions -->
+                a
+            </premise>
+            <response> <!-- responses should be ANTIderivatives-->
+                A
+            </response> 
+        </match>
+        <match>
+            <premise>  <!-- premises should be ORIGINAL functions -->
+                b
+            </premise>
+            <response> <!-- responses should be ANTIderivatives-->
+                B
+            </response> 
+        </match>
+        <match>
+            <premise>  <!-- premises should be ORIGINAL functions -->
+                c
+            </premise>
+            <response> <!-- responses should be ANTIderivatives-->
+                C
+            </response> 
+        </match>
+        <match>
+            <premise>  <!-- premises should be ORIGINAL functions -->
+                d
+            </premise>
+            <response> <!-- responses should be ANTIderivatives-->
+                D
+            </response> 
+        </match>
+    </cardsort>
+</exercise>
+</exercises>
